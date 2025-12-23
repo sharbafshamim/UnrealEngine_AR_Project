@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"/Users/admin_nami/Documents/Shamim_Mini_Proj/MyProject2/Intermediate/Source/MyProject2.Build.cs",
+		"/Users/admin_nami/Documents/Shamim_Mini_Proj/MyProject2/Intermediate/Source/MyProject2.Target.cs",
+		"/Users/admin_nami/Documents/Shamim_Mini_Proj/MyProject2/Intermediate/Source/MyProject2Client.Target.cs",
+		"/Users/admin_nami/Documents/Shamim_Mini_Proj/MyProject2/Intermediate/Source/MyProject2Editor.Target.cs",
+		"/Users/admin_nami/Documents/Shamim_Mini_Proj/MyProject2/Intermediate/Source/MyProject2Server.Target.cs"
+	],
+	"EngineVersion": "5.7.1"
+}
