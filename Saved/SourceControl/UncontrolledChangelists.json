@@ -1,0 +1,16 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"/Users/admin_nami/Documents/Shamim_Mini_Proj/MyProject2/Content/HandheldAR/Maps/HandheldARBlankMap.umap",
+				"/Users/admin_nami/Documents/Shamim_Mini_Proj/MyProject2/Content/BP_ARCube.uasset",
+				"/Users/admin_nami/Documents/Shamim_Mini_Proj/MyProject2/Content/M_blue.uasset",
+				"/Users/admin_nami/Documents/Shamim_Mini_Proj/MyProject2/Content/M_green.uasset",
+				"/Users/admin_nami/Documents/Shamim_Mini_Proj/MyProject2/Content/M_red.uasset"
+			]
+		}
+	]
+}
