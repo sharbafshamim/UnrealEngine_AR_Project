@@ -70,6 +70,37 @@ Device requirements (one of the following):
 - iOS device with ARKit support.
 - Microsoft HoloLens or Meta/Oculus Quest with passthrough for headset‑based AR.
 
-### Setup
-
 1. **Clone the repository**
+
+2. **Open the project**
+
+- Unreal: open the `.uproject` file with the matching Unreal Engine version.
+
+3. **Configure platform settings**
+- Android: enable ARCore/AR plugin and set minimum SDK version as required.
+- iOS: enable ARKit/AR plugin and configure bundle identifier and signing (requires an Apple developer account for device deployment).
+- HoloLens: configure MRTK and UWP build settings.
+
+4. **Build and deploy**
+- Follow the standard engine workflow to build and deploy to the target device.
+- Use USB or Wi‑Fi deployment depending on platform and tooling.
+
+
+
+## iOS / macOS Notes (Developer Account and Descriptor File Issue)
+
+During development on macOS with an iPhone, deployment of the Unreal‑based iOS build encountered issues related to using a **free** Apple account:
+
+- Errors occurred about failing to open the project descriptor file when trying to run the `.uproject` over a local network or as part of the iOS build pipeline.
+- Similar issues have been reported by other users in the Unreal community when opening or deploying `.uproject` files over a network or with certain remote setups, for example:  
+https://forums.unrealengine.com/t/failed-to-open-descriptor-file-error-when-opening-uproject-file-on-local-network-solution/788090
+
+From community experience and tooling limitations:
+
+- A paid Apple Developer Program account (around 100 USD per year) is typically required for reliable Unreal iOS deployment and code signing for on‑device testing and distribution.
+- For this course project, that cost is considered too high just to get a short prototype running on an iPhone, so iOS deployment was not completed with a paid account.
+
+
+
+
+
